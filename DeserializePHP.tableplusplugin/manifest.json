@@ -1,0 +1,20 @@
+{
+    "name": "Deserialize PHP",
+    "identifier": "com.pixeljar.DeserializePHP",
+    "version": "1.0",
+    "detail": "This plugin helps you view PHP serialized data",
+    "author": "Pixel Jar",
+    "authorEmail": "info@pixeljar.com",
+    "scripts": [
+        {
+            "location": "data",
+            "type": "separator"
+        },
+        {
+            "location": "data",
+            "type": "action",
+            "script": "deserializephp.js",
+            "name": "Deserialize PHP"
+        }
+    ]
+}
